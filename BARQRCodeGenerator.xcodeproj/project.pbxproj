@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		652491D6217FAB49006188E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652491D5217FAB49006188E9 /* AppDelegate.swift */; };
+		652491D8217FAB49006188E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652491D7217FAB49006188E9 /* ViewController.swift */; };
+		652491DB217FAB49006188E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652491D9217FAB49006188E9 /* Main.storyboard */; };
+		652491DD217FAB4A006188E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652491DC217FAB4A006188E9 /* Assets.xcassets */; };
+		652491E0217FAB4A006188E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652491DE217FAB4A006188E9 /* LaunchScreen.storyboard */; };
+		652491EB217FAB4A006188E9 /* BARQRCodeGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652491EA217FAB4A006188E9 /* BARQRCodeGeneratorTests.swift */; };
+		652491F6217FAB4A006188E9 /* BARQRCodeGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652491F5217FAB4A006188E9 /* BARQRCodeGeneratorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		652491E7217FAB4A006188E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 652491CA217FAB48006188E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 652491D1217FAB48006188E9;
+			remoteInfo = BARQRCodeGenerator;
+		};
+		652491F2217FAB4A006188E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 652491CA217FAB48006188E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 652491D1217FAB48006188E9;
+			remoteInfo = BARQRCodeGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		652491D2217FAB48006188E9 /* BARQRCodeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BARQRCodeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		652491D5217FAB49006188E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		652491D7217FAB49006188E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		652491DA217FAB49006188E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		652491DC217FAB4A006188E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		652491DF217FAB4A006188E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		652491E1217FAB4A006188E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652491E6217FAB4A006188E9 /* BARQRCodeGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BARQRCodeGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		652491EA217FAB4A006188E9 /* BARQRCodeGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BARQRCodeGeneratorTests.swift; sourceTree = "<group>"; };
+		652491EC217FAB4A006188E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652491F1217FAB4A006188E9 /* BARQRCodeGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BARQRCodeGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		652491F5217FAB4A006188E9 /* BARQRCodeGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BARQRCodeGeneratorUITests.swift; sourceTree = "<group>"; };
+		652491F7217FAB4A006188E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		652491CF217FAB48006188E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652491E3217FAB4A006188E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652491EE217FAB4A006188E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		652491C9217FAB48006188E9 = {
+			isa = PBXGroup;
+			children = (
+				652491D4217FAB48006188E9 /* BARQRCodeGenerator */,
+				652491E9217FAB4A006188E9 /* BARQRCodeGeneratorTests */,
+				652491F4217FAB4A006188E9 /* BARQRCodeGeneratorUITests */,
+				652491D3217FAB48006188E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		652491D3217FAB48006188E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				652491D2217FAB48006188E9 /* BARQRCodeGenerator.app */,
+				652491E6217FAB4A006188E9 /* BARQRCodeGeneratorTests.xctest */,
+				652491F1217FAB4A006188E9 /* BARQRCodeGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		652491D4217FAB48006188E9 /* BARQRCodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				652491D5217FAB49006188E9 /* AppDelegate.swift */,
+				652491D7217FAB49006188E9 /* ViewController.swift */,
+				652491D9217FAB49006188E9 /* Main.storyboard */,
+				652491DC217FAB4A006188E9 /* Assets.xcassets */,
+				652491DE217FAB4A006188E9 /* LaunchScreen.storyboard */,
+				652491E1217FAB4A006188E9 /* Info.plist */,
+			);
+			path = BARQRCodeGenerator;
+			sourceTree = "<group>";
+		};
+		652491E9217FAB4A006188E9 /* BARQRCodeGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				652491EA217FAB4A006188E9 /* BARQRCodeGeneratorTests.swift */,
+				652491EC217FAB4A006188E9 /* Info.plist */,
+			);
+			path = BARQRCodeGeneratorTests;
+			sourceTree = "<group>";
+		};
+		652491F4217FAB4A006188E9 /* BARQRCodeGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				652491F5217FAB4A006188E9 /* BARQRCodeGeneratorUITests.swift */,
+				652491F7217FAB4A006188E9 /* Info.plist */,
+			);
+			path = BARQRCodeGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		652491D1217FAB48006188E9 /* BARQRCodeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652491FA217FAB4A006188E9 /* Build configuration list for PBXNativeTarget "BARQRCodeGenerator" */;
+			buildPhases = (
+				652491CE217FAB48006188E9 /* Sources */,
+				652491CF217FAB48006188E9 /* Frameworks */,
+				652491D0217FAB48006188E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BARQRCodeGenerator;
+			productName = BARQRCodeGenerator;
+			productReference = 652491D2217FAB48006188E9 /* BARQRCodeGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		652491E5217FAB4A006188E9 /* BARQRCodeGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652491FD217FAB4A006188E9 /* Build configuration list for PBXNativeTarget "BARQRCodeGeneratorTests" */;
+			buildPhases = (
+				652491E2217FAB4A006188E9 /* Sources */,
+				652491E3217FAB4A006188E9 /* Frameworks */,
+				652491E4217FAB4A006188E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				652491E8217FAB4A006188E9 /* PBXTargetDependency */,
+			);
+			name = BARQRCodeGeneratorTests;
+			productName = BARQRCodeGeneratorTests;
+			productReference = 652491E6217FAB4A006188E9 /* BARQRCodeGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		652491F0217FAB4A006188E9 /* BARQRCodeGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65249200217FAB4A006188E9 /* Build configuration list for PBXNativeTarget "BARQRCodeGeneratorUITests" */;
+			buildPhases = (
+				652491ED217FAB4A006188E9 /* Sources */,
+				652491EE217FAB4A006188E9 /* Frameworks */,
+				652491EF217FAB4A006188E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				652491F3217FAB4A006188E9 /* PBXTargetDependency */,
+			);
+			name = BARQRCodeGeneratorUITests;
+			productName = BARQRCodeGeneratorUITests;
+			productReference = 652491F1217FAB4A006188E9 /* BARQRCodeGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		652491CA217FAB48006188E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Pasha;
+				TargetAttributes = {
+					652491D1217FAB48006188E9 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					652491E5217FAB4A006188E9 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 652491D1217FAB48006188E9;
+					};
+					652491F0217FAB4A006188E9 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 652491D1217FAB48006188E9;
+					};
+				};
+			};
+			buildConfigurationList = 652491CD217FAB48006188E9 /* Build configuration list for PBXProject "BARQRCodeGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 652491C9217FAB48006188E9;
+			productRefGroup = 652491D3217FAB48006188E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				652491D1217FAB48006188E9 /* BARQRCodeGenerator */,
+				652491E5217FAB4A006188E9 /* BARQRCodeGeneratorTests */,
+				652491F0217FAB4A006188E9 /* BARQRCodeGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		652491D0217FAB48006188E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652491E0217FAB4A006188E9 /* LaunchScreen.storyboard in Resources */,
+				652491DD217FAB4A006188E9 /* Assets.xcassets in Resources */,
+				652491DB217FAB49006188E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652491E4217FAB4A006188E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652491EF217FAB4A006188E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		652491CE217FAB48006188E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652491D8217FAB49006188E9 /* ViewController.swift in Sources */,
+				652491D6217FAB49006188E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652491E2217FAB4A006188E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652491EB217FAB4A006188E9 /* BARQRCodeGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652491ED217FAB4A006188E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652491F6217FAB4A006188E9 /* BARQRCodeGeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		652491E8217FAB4A006188E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 652491D1217FAB48006188E9 /* BARQRCodeGenerator */;
+			targetProxy = 652491E7217FAB4A006188E9 /* PBXContainerItemProxy */;
+		};
+		652491F3217FAB4A006188E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 652491D1217FAB48006188E9 /* BARQRCodeGenerator */;
+			targetProxy = 652491F2217FAB4A006188E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		652491D9217FAB49006188E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652491DA217FAB49006188E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		652491DE217FAB4A006188E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652491DF217FAB4A006188E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		652491F8217FAB4A006188E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		652491F9217FAB4A006188E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		652491FB217FAB4A006188E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BARQRCodeGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mycompany.BARQRCodeGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		652491FC217FAB4A006188E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BARQRCodeGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mycompany.BARQRCodeGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		652491FE217FAB4A006188E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BARQRCodeGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mycompany.BARQRCodeGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BARQRCodeGenerator.app/BARQRCodeGenerator";
+			};
+			name = Debug;
+		};
+		652491FF217FAB4A006188E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BARQRCodeGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mycompany.BARQRCodeGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BARQRCodeGenerator.app/BARQRCodeGenerator";
+			};
+			name = Release;
+		};
+		65249201217FAB4A006188E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BARQRCodeGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mycompany.BARQRCodeGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BARQRCodeGenerator;
+			};
+			name = Debug;
+		};
+		65249202217FAB4A006188E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BARQRCodeGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mycompany.BARQRCodeGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BARQRCodeGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		652491CD217FAB48006188E9 /* Build configuration list for PBXProject "BARQRCodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652491F8217FAB4A006188E9 /* Debug */,
+				652491F9217FAB4A006188E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652491FA217FAB4A006188E9 /* Build configuration list for PBXNativeTarget "BARQRCodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652491FB217FAB4A006188E9 /* Debug */,
+				652491FC217FAB4A006188E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652491FD217FAB4A006188E9 /* Build configuration list for PBXNativeTarget "BARQRCodeGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652491FE217FAB4A006188E9 /* Debug */,
+				652491FF217FAB4A006188E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65249200217FAB4A006188E9 /* Build configuration list for PBXNativeTarget "BARQRCodeGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65249201217FAB4A006188E9 /* Debug */,
+				65249202217FAB4A006188E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 652491CA217FAB48006188E9 /* Project object */;
+}
